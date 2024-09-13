@@ -1,0 +1,57 @@
+/* تنسيق عام */
+
+
+/* تنسيق ناف بار */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+.navbar {
+    background-color: #1d831d; /* لون أخضر داكن */
+}
+.navbar-brand {
+    color: #ffffff;
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-nav .nav-link:hover {
+    color: #eeefee; /* لون أخضر فاتح */
+}
+
+/* قسم الشعار والترحيب */
+.hero-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/* الكاردات للخدمات */
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+
+
+.card:hover {
+    background-color: #e0f7fa;
+}
